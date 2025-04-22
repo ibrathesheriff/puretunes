@@ -14,6 +14,8 @@ import java.sql.SQLException;
 
 import org.puretunes.data.DBConnect;
 import org.puretunes.data.MusicQueue;
+import org.puretunes.data.SongCrawler;
+
 import org.puretunes.data.Song;
 import org.puretunes.layouts.TwoColumnLayout;
 import org.puretunes.ui.Header;
@@ -40,9 +42,10 @@ public class App extends Application {
 
     private void createmusicScene() {
         musicQueue = new MusicQueue<>();
-        musicQueue.enqueue(new Song(ALESSIA_TRACK));
-        musicQueue.enqueue(new Song(DUA_LIPA_TRACK));
-        musicQueue.enqueue(new Song(NF_TRACK));
+        //musicQueue.enqueue(new Song(ALESSIA_TRACK));
+        //musicQueue.enqueue(new Song(DUA_LIPA_TRACK));
+        //musicQueue.enqueue(new Song(NF_TRACK));
+        SongCrawler.loadMusicQueue(musicQueue, true);
 
         header = new Header(musicQueue);
 

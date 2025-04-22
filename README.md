@@ -23,5 +23,9 @@ My personal site is licensed under the [MIT License](https://mit-license.org/).
 ## Contact 📬
 If you encounter any issues or have suggestions, please open an issue or reach out on the Discussions tab.
 
+## Credits
+
+[Versionmuseum](https://www.versionmuseum.com/history-of/itunes-app) for images on the Design Evolution of iTunes
+
 ## TODO 📋
-- [ ] 
+- [ ] Add a crazy volume control feature like this: https://www.youtube.com/shorts/8vetCOqE7CA
